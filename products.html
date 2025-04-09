@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="et">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tooted - Käsitööpood</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Käsitööpood</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Avaleht</a></li>
+                <li><a href="products.html">Tooted</a></li>
+                <li><a href="about.html">Meist</a></li>
+                <li><a href="contact.html">Kontaktid</a></li>
+                <li><a href="cart.html">Ostukorv</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="products">
+            <h2>Meie tooted</h2>
+            <div class="product">
+                <h3>Käsitsi kootud sall</h3>
+                <img src="https://via.placeholder.com/150" alt="Kootud sall">
+                <p>Hind: 25€</p>
+                <button onclick="addToCart('Kootud sall')">Lisa ostukorvi</button>
+            </div>
+            <div class="product">
+                <h3>Puust võtmehoidja</h3>
+                <img src="https://via.placeholder.com/150" alt="Võtmehoidja">
+                <p>Hind: 10€</p>
+                <button onclick="addToCart('Võtmehoidja')">Lisa ostukorvi</button>
+            </div>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
